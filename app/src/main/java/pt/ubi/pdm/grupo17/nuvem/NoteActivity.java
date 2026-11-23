@@ -16,6 +16,7 @@ import android.widget.TextView;
 
 import androidx.activity.result.ActivityResultLauncher;
 import androidx.activity.result.contract.ActivityResultContracts;
+import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -120,6 +121,22 @@ public class NoteActivity extends AppCompatActivity {
         super.onStop();
         if (registration != null) registration.remove();
         registration = null;
+    }
+
+    // Ao rodar o ecrã a Activity é recriada: sem isto baseVersion volta a -1 e dirty fica true
+    // (o TextWatcher dispara ao restaurar o texto), dando um aviso falso e um conflito falso.
+    @Override
+    protected void onSaveInstanceState(@NonNull Bundle out) {
+        super.onSaveInstanceState(out);
+        out.putLong("baseVersion", baseVersion);
+        out.putBoolean("dirty", dirty);
+    }
+
+    @Override
+    protected void onRestoreInstanceState(@NonNull Bundle saved) {
+        super.onRestoreInstanceState(saved); // restaura o texto e dispara o TextWatcher
+        baseVersion = saved.getLong("baseVersion", -1);
+        dirty = saved.getBoolean("dirty");
     }
 
     @Override
