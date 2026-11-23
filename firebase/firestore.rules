@@ -1,6 +1,6 @@
 rules_version = '2';
 
-// Security Rules do Cloud Firestore – Grupo 17
+// Security Rules do Cloud Firestore – Grupo 18
 // As regras correm no servidor: mesmo que alguém altere a app, não consegue contorná-las.
 service cloud.firestore {
   match /databases/{database}/documents {

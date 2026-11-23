@@ -3,7 +3,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <!-- Paleta do Grupo 17 (modo claro) -->
+    <!-- Paleta do Grupo 18 (modo claro) -->
     <color name="g17_primary">#11807F</color>
     <color name="g17_on_primary">#FFFFFF</color>
     <color name="g17_primary_container">#CDEBEA</color>
