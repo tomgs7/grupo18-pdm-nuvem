@@ -1,0 +1,60 @@
+<resources>
+    <!-- Tema da demonstração (MaterialToolbar em cada ecrã). Cores em colors.xml (+ values-night). -->
+    <style name="Theme.Grupo17" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/g17_primary</item>
+        <item name="colorOnPrimary">@color/g17_on_primary</item>
+        <item name="colorPrimaryContainer">@color/g17_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/g17_on_primary_container</item>
+        <item name="colorSecondary">@color/g17_secondary</item>
+        <item name="colorOnSecondary">@color/g17_on_secondary</item>
+        <item name="colorSecondaryContainer">@color/g17_surface_var</item>
+        <item name="colorOnSecondaryContainer">@color/g17_on_surface</item>
+        <item name="colorSurface">@color/g17_surface</item>
+        <item name="colorOnSurface">@color/g17_on_surface</item>
+        <item name="colorSurfaceVariant">@color/g17_surface_var</item>
+        <item name="colorOnSurfaceVariant">@color/g17_text2</item>
+        <item name="colorOutline">@color/g17_outline</item>
+        <item name="android:colorBackground">@color/g17_bg</item>
+        <item name="colorOnBackground">@color/g17_on_surface</item>
+        <item name="android:statusBarColor">@color/g17_toolbar</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="materialAlertDialogTheme">@style/G17.AlertDialog</item>
+        <item name="shapeAppearanceSmallComponent">@style/G17.Shape12</item>
+        <item name="shapeAppearanceMediumComponent">@style/G17.Shape16</item>
+    </style>
+
+    <style name="G17.Shape12" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+    <style name="G17.Shape16" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <style name="G17.Toolbar" parent="Widget.Material3.Toolbar">
+        <item name="android:background">@color/g17_toolbar</item>
+        <item name="android:theme">@style/ThemeOverlay.Material3.Dark.ActionBar</item>
+        <item name="titleTextColor">@android:color/white</item>
+        <item name="subtitleTextColor">#CCFFFFFF</item>
+        <item name="navigationIconTint">@android:color/white</item>
+        <item name="popupTheme">@style/G17.Popup</item>
+    </style>
+
+    <!-- Diálogos: botão positivo cheio na cor primária -->
+    <style name="G17.AlertDialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="buttonBarPositiveButtonStyle">@style/G17.Dialog.Positive</item>
+    </style>
+    <style name="G17.Dialog.Positive" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/g17_toolbar</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!-- Menu ⋮: fundo claro e texto escuro (no modo escuro: values-night); checkbox na cor primária -->
+    <style name="G17.Popup" parent="ThemeOverlay.Material3.Light">
+        <item name="colorPrimary">@color/g17_primary</item>
+        <item name="colorControlActivated">@color/g17_primary</item>
+        <item name="colorSurface">@color/g17_surface</item>
+        <item name="colorOnSurface">@color/g17_on_surface</item>
+    </style>
+</resources>

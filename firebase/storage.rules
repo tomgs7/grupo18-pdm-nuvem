@@ -1,0 +1,24 @@
+rules_version = '2';
+
+// Security Rules do Cloud Storage – Grupo 17
+// Regras entre serviços: o Storage consulta o Firestore para saber quem é membro da nota.
+// Ao publicar, a consola pede autorização para o Storage ler o Firestore: aceitar.
+service firebase.storage {
+  match /b/{bucket}/o {
+    match /notes/{noteId}/{fileName} {
+
+      function isMember() {
+        return request.auth != null
+          && request.auth.uid in
+             firestore.get(/databases/(default)/documents/notes/$(noteId)).data.members;
+      }
+
+      allow read: if isMember();
+
+      // só imagens e no máximo 5 MB (igual a Config.MAX_PHOTO_BYTES)
+      allow create, update: if isMember()
+        && request.resource.size < 5 * 1024 * 1024
+        && request.resource.contentType.matches('image/.*');
+    }
+  }
+}

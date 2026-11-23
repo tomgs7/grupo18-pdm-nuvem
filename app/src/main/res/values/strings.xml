@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Notas Partilhadas</string>
+    <string name="title_notes">As minhas notas</string>
+
+    <string name="email">Email</string>
+    <string name="password">Palavra-passe</string>
+    <string name="login">Entrar</string>
+    <string name="register">Criar conta</string>
+    <string name="err_email">Email inválido</string>
+    <string name="err_password">Mínimo de 6 caracteres</string>
+    <string name="login_subtitle">Grupo 17 · PDM 2026/27 · Serviços na nuvem</string>
+
+    <string name="status_online">● Online · sincronizado com o servidor</string>
+    <string name="status_syncing">◐ A sincronizar…</string>
+    <string name="status_cache">○ Sem ligação ao servidor · a mostrar dados da cache</string>
+    <string name="status_offline_sim">○ Offline (simulado) · as alterações ficam em fila</string>
+    <string name="empty">Ainda não tens notas. Cria uma com o botão +.</string>
+
+    <string name="new_note">Nova nota</string>
+    <string name="hint_title">Título</string>
+    <string name="hint_text">Escreve aqui…</string>
+    <string name="create">Criar</string>
+    <string name="cancel">Cancelar</string>
+
+    <string name="save">Guardar</string>
+    <string name="save_checked">Guardar com verificação</string>
+    <string name="photo">Fotografia</string>
+    <string name="share">Partilhar</string>
+    <string name="members">Remover membro</string>
+
+    <string name="menu_offline">Simular offline</string>
+    <string name="menu_logout">Terminar sessão</string>
+
+    <string name="empty_title">Ainda não tens notas</string>
+    <string name="empty_sub">Carrega em Nova nota para começar</string>
+    <string name="hint_note_title">Título da nota</string>
+    <string name="hint_colleague">Email do colega</string>
+    <string name="helper_account">O colega tem de ter conta na app</string>
+    <string name="members_label">Membros</string>
+    <string name="offline_go">Simular offline (ligado à rede)</string>
+    <string name="offline_back">Voltar a ligar (offline simulado)</string>
+    <string name="ok">OK</string>
+</resources>

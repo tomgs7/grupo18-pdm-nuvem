@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="g17_primary">#4DC3C1</color>
+    <color name="g17_on_primary">#00302F</color>
+    <color name="g17_primary_container">#0B4F4E</color>
+    <color name="g17_on_primary_container">#CDEBEA</color>
+    <color name="g17_bg">#0F141D</color>
+    <color name="g17_surface">#172033</color>
+    <color name="g17_surface_var">#222C42</color>
+    <color name="g17_on_surface">#E8ECF2</color>
+    <color name="g17_text2">#A9B4C6</color>
+    <color name="g17_outline">#34405A</color>
+    <color name="g17_warn_bg">#3B2F18</color>
+    <color name="g17_warn_text">#F7D9A4</color>
+    <color name="g17_icon">#4DC3C1</color>
+
+    <color name="g17_toolbar">#0B4F4E</color>
+    <color name="g17_st_ok_bg">#17382A</color>
+    <color name="g17_st_ok_fg">#A8E0BF</color>
+    <color name="g17_st_sync_bg">#3B2F18</color>
+    <color name="g17_st_sync_fg">#F7D9A4</color>
+    <color name="g17_st_cache_bg">#222C42</color>
+    <color name="g17_st_cache_fg">#A9B4C6</color>
+    <color name="g17_st_off_bg">#40201F</color>
+    <color name="g17_st_off_fg">#F2B8B5</color>
+</resources>

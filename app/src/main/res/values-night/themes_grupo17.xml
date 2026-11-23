@@ -1,0 +1,8 @@
+<resources>
+    <style name="G17.Popup" parent="ThemeOverlay.Material3.Dark">
+        <item name="colorPrimary">@color/g17_primary</item>
+        <item name="colorControlActivated">@color/g17_primary</item>
+        <item name="colorSurface">@color/g17_surface</item>
+        <item name="colorOnSurface">@color/g17_on_surface</item>
+    </style>
+</resources>

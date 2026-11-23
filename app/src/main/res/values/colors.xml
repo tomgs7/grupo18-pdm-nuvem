@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Paleta do Grupo 17 (modo claro) -->
+    <color name="g17_primary">#11807F</color>
+    <color name="g17_on_primary">#FFFFFF</color>
+    <color name="g17_primary_container">#CDEBEA</color>
+    <color name="g17_on_primary_container">#00201F</color>
+    <color name="g17_secondary">#F2A33A</color>
+    <color name="g17_on_secondary">#172033</color>
+    <color name="g17_bg">#F5F6F2</color>
+    <color name="g17_surface">#FFFFFF</color>
+    <color name="g17_surface_var">#E6EAE4</color>
+    <color name="g17_on_surface">#172033</color>
+    <color name="g17_text2">#4A5568</color>
+    <color name="g17_outline">#C9D0C6</color>
+    <color name="g17_warn_bg">#FCEBCD</color>
+    <color name="g17_warn_text">#5A3B00</color>
+    <color name="g17_icon">#11807F</color>
+
+    <color name="g17_toolbar">#11807F</color>
+    <color name="g17_dark">#172033</color>
+    <color name="g17_st_ok_bg">#DDF1E4</color>
+    <color name="g17_st_ok_fg">#1B5E3A</color>
+    <color name="g17_st_sync_bg">#FCEBCD</color>
+    <color name="g17_st_sync_fg">#5A3B00</color>
+    <color name="g17_st_cache_bg">#E6EAE4</color>
+    <color name="g17_st_cache_fg">#4A5568</color>
+    <color name="g17_st_off_bg">#F8DCDC</color>
+    <color name="g17_st_off_fg">#7A1F1F</color>
+</resources>
