@@ -8,7 +8,7 @@
     <string name="register">Criar conta</string>
     <string name="err_email">Email inválido</string>
     <string name="err_password">Mínimo de 6 caracteres</string>
-    <string name="login_subtitle">Grupo 17 · PDM 2026/27 · Serviços na nuvem</string>
+    <string name="login_subtitle">Grupo 18 · PDM 2026/27 · Serviços na nuvem</string>
 
     <string name="status_online">● Online · sincronizado com o servidor</string>
     <string name="status_syncing">◐ A sincronizar…</string>

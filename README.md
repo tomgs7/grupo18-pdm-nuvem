@@ -1,4 +1,4 @@
-# Grupo 17 – PDM 2026/27 – Tema 7: Serviços na nuvem e sincronização de dados
+# Grupo 18 – PDM 2026/27 – Tema 7: Serviços na nuvem e sincronização de dados
 
 App de demonstração **Notas Partilhadas** (Java) + excertos equivalentes em Kotlin.
 Utilizadores autenticados criam notas, partilham-nas por email e editam-nas **em tempo real**,
@@ -31,7 +31,7 @@ supabase-comparacao/       o mesmo modelo em SQL com Row Level Security
 docs/                      protocolo experimental (PDF)
 ```
 
-## Como executar (resumo – ver `docs/Protocolo_Experimental_Grupo17.pdf`)
+## Como executar (resumo – ver `docs/Protocolo_Experimental_Grupo18.pdf`)
 1. Criar um projeto em <https://console.firebase.google.com>, registar uma app Android com o
    package **pt.ubi.pdm.grupo17.nuvem** e descarregar o `google-services.json`.
 2. Na consola: ativar **Authentication > Email/Password**, criar a base de dados **Firestore**
